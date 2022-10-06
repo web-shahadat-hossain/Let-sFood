@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+
+  color: #1d1d1d;
+}
+.hero_section button {
+  width: 80px;
+  height: 17px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* black */
+
+  color: #1d1d1d;
+}
+/* ****** Header Section Style start Here  ****** */
+header {
+  background-color: #fff9ea;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.logo img {
+  padding: 25px 0;
+}
+.navbar nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+.navbar nav ul li {
+  list-style: none;
+  padding: 10px;
+}
+.navbar nav ul li a {
+  color: rgba(29, 29, 29, 0.7);
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+}
+.sight-container {
+  display: flex;
+  align-items: center;
+}
+.nav-button {
+  width: 122px;
+  height: 38.13px;
+  left: 1188px;
+  top: 34px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 18px;
+  gap: 16px;
+  border: none;
+
+  background: #ffcb45;
+  border-radius: 50px;
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* black */
+
+  color: #1d1d1d;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+.hero_section {
+  background-image: url(../Assets/Images/shapes.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero_section p {
+  height: 46px;
+  left: 135px;
+  top: 425px;
+
+  /* body-text */
+
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  width: 370px;
+  height: 46px;
+  /* TEXT-LIGHT */
+
+  color: rgba(29, 29, 29, 0.7);
+}
